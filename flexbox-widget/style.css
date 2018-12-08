@@ -1,0 +1,30 @@
+
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #cc0042;
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.middle{
+    background-color: #b20039;
+}
+
+.box:hover{
+    background-color: #ff0052;
+}
