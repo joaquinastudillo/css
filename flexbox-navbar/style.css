@@ -1,0 +1,48 @@
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #95a5a6;
+    border-bottom: 2px solid #89daaa;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+}
+
+nav > a:hover{
+    color: #5fa0a5;
+    border-bottom: 2px solid#5fa0a5;
+}
+
+nav > a > i{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 920px){
+    nav{
+        justify-content: center;
+    }
+    nav > a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        background-color:  #57555a;
+    }
+}
